@@ -5,13 +5,13 @@ const  Section4 = () => {
   return (
     <div className="w-full max-m-lg container m-auto min-h-screen flex flex-col lg:flex-row">
       {/* Left Section */}
-      <div className="w-full    lg:w-1/2 bg-[#22776f] text-white flex flex-col justify-center px-6 sm:px-10 lg:px-24 py-12 gap-8">
+      <div className="w-full    lg:w-1/2 bg-[#388279] text-white flex flex-col justify-center px-6 sm:px-10 lg:px-24 py-12 gap-8">
         {/* Heading */}
         <div>
           <h1 className="text-4xl sm:text-4xl lg:text-6xl lg:leading-14 font-bold leading-snug">
             The Most Comfortable Way To Make Online Payment
           </h1>
-          <p className="mt-4 text-base sm:text-lg text-gray-200 lg:pt-4">
+          <p className="mt-4 text-base sm:text-lg text-[#FFFFFF] lg:pt-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris.
@@ -21,22 +21,22 @@ const  Section4 = () => {
         {/* Progress Bars */}
         <div className="space-y-4 ">
           <div>
-            <div className=" flex gap-46 md:gap-28  font-medium">
+            <div className=" flex justify-between font-medium">
               <span className="text-lg"> Saving You Time</span>
-              <span className="text-lg">90%</span>
+              <span className="text-lg  font-light">90%</span>
             </div>
-            <div className="w-[100%] md:w-[40%] h-2 bg-black mt-1 rounded">
-              <div className="w-[90%] h-2 bg-white rounded"></div>
+            <div className="w-[100%] md:w-[100%] h-2 bg-white mt-1 rounded">
+              <div className="w-[90%] h-2 bg-black rounded"></div>
             </div>
           </div>
 
           <div>
-            <div className="flex gap-44 lg:gap-28 text-sm font-medium">
+            <div className="flex justify-between  text-sm font-medium">
               <span className="text-lg">Trusted Company</span>
-              <span className="text-lg">94%</span>
+              <span className="text-lg font-light">94%</span>
             </div>
-            <div className="w-[100%] h-2 bg-black mt-1 rounded">
-              <div className="w-[94%] h-2 bg-white rounded"></div>
+            <div className="w-[100%] h-2 bg-white mt-1 rounded">
+              <div className="w-[94%] h-2 bg-black rounded"></div>
             </div>
           </div>
         </div>

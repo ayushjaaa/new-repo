@@ -112,3 +112,23 @@
 .marquee-container:hover .marquee {
   animation-play-state: paused;
 }
+
+.back{
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(249, 249, 249, 1) 100%);
+
+}
+.hovericone:hover{
+  background: white ;
+  color:#1C756B;
+}
+
+.shadow{
+  box-shadow: 0px 8px 16px 0px #94b8977e;
+    transition: box-shadow 0.3s ease;
+  }
+   
+  .gradient-text {
+      background: linear-gradient(160deg, rgba(220,255,234,1) 0%, rgba(27,117,107,1) 51.8%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }

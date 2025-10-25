@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '../Button.jsx/Button';
 import { ArrowRight } from "lucide-react";
+import { ShieldCheck,Plane ,ClockPlus,Headset} from 'lucide-react';
 
 
 
@@ -8,8 +9,8 @@ const Section3 = () => {
     return (
         <div className='w-screen h-full bg-[#F9F9F9]  flex flex-col lg:flex-row lg:gap-0  px-6 pt-8  lg:pb-0 max-w-[1400px] 2xl:max-w-[1800px] mx-auto gap-6'  >
             <div className='w-full lg:w-1/2   lg:px-28 lg:p-18 text-start flex   gap-4 flex-col bg'>
-                <h1 className=' text-4xl  pr-5 md:text-5xl md;p-0 lg:text-7xl font-semibold'>Banking Solution That Works Around You in Easy Way</h1>
-                <p className='text-xl pr-8 font-light text-[#7A7A7A] pt-4 '>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.
+                <h1 className=' text-4xl  pr-5 md:text-5xl md;p-0 lg:text-7xl font-semibold text-text-primery'>Banking Solution That Works Around You in <span className="bg-[linear-gradient(160deg,rgba(220,255,234,1)_0%,rgba(27,117,107,1)_51.8%)] bg-clip-text text-transparent " >Easy Way</span></h1>
+                <p className='text-xl pr-8 font-light    pt-4  text-p-light'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.
                 </p>
                 <Button style={"primary"} image={"./Fonts/hand.png"} buttonText={"Know More "} />
             </div>
@@ -17,25 +18,12 @@ const Section3 = () => {
                 <div className=' lg:w-1/2 flex  flex-col gap-2  '>
 
                    
-                <div className="max-w-sm   py-14 mx-auto hover:bg-white rounded-2xl p-6 hover:shadow-lg shadow-[#D6E2E0] transition-shadow duration-300">
+                <div className="max-w-sm   py-14 mx-auto  rounded-2xl p-6 shadow-lg shadow-[#D6E2E0] transition-shadow duration-300">
                         {/* Icon and Title */}
                         <div className="flex items-center gap-3">
                             {/* Certification Icon */}
                             <div className="text-green-700">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    fill="none"
-                                    viewBox="0 0 24 24"
-                                    strokeWidth={2}
-                                    stroke="currentColor"
-                                    className="w-12 h-12"
-                                >
-                                    <path
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        d="M9 12l2 2 4-4m5.5 2A8.5 8.5 0 1112 3.5 8.5 8.5 0 0120.5 12z"
-                                    />
-                                </svg>
+                             <ShieldCheck className='w-10 h-10' />
                             </div>
                             <h2 className="text-4xl  text-gray-900">Certified</h2>
                         </div>
@@ -58,22 +46,9 @@ const Section3 = () => {
                         <div className="flex items-center gap-3">
                             {/* Certification Icon */}
                             <div className="text-green-700">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    fill="none"
-                                    viewBox="0 0 24 24"
-                                    strokeWidth={2}
-                                    stroke="currentColor"
-                                    className="w-12 h-12"
-                                >
-                                    <path
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        d="M9 12l2 2 4-4m5.5 2A8.5 8.5 0 1112 3.5 8.5 8.5 0 0120.5 12z"
-                                    />
-                                </svg>
+                             <Plane className='h-10 w-10'/>
                             </div>
-                            <h2 className="text-4xl  text-gray-900">Certified</h2>
+                            <h2 className="text-4xl  text-gray-900">Transparant</h2>
                         </div>
 
 
@@ -103,22 +78,9 @@ const Section3 = () => {
                         <div className="flex items-center gap-3">
                             {/* Certification Icon */}
                             <div className="text-green-700">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    fill="none"
-                                    viewBox="0 0 24 24"
-                                    strokeWidth={2}
-                                    stroke="currentColor"
-                                    className="w-12 h-12"
-                                >
-                                    <path
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        d="M9 12l2 2 4-4m5.5 2A8.5 8.5 0 1112 3.5 8.5 8.5 0 0120.5 12z"
-                                    />
-                                </svg>
+                         <ClockPlus className='w-10 h-10'/>
                             </div>
-                            <h2 className="text-4xl  text-gray-900">Certified</h2>
+                            <h2 className="text-4xl  text-gray-900">Fast Apply</h2>
                         </div>
 
 
@@ -139,20 +101,7 @@ const Section3 = () => {
                         <div className="flex items-center gap-3">
                             {/* Certification Icon */}
                             <div className="text-green-700">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    fill="none"
-                                    viewBox="0 0 24 24"
-                                    strokeWidth={2}
-                                    stroke="currentColor"
-                                    className="w-12 h-12"
-                                >
-                                    <path
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        d="M9 12l2 2 4-4m5.5 2A8.5 8.5 0 1112 3.5 8.5 8.5 0 0120.5 12z"
-                                    />
-                                </svg>
+                          <Headset className='w-10 h-10'/>
                             </div>
                             <h2 className="text-4xl  text-gray-900">Certified</h2>
                         </div>
