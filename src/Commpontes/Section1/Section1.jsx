@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '../Button.jsx/Button'
 import { Menu, X, Star } from "lucide-react";
+import AnimatedButton from '../../AnimatedButton';
 const Section1 = () => {
   return (
   
@@ -19,7 +20,7 @@ const Section1 = () => {
 
 <div className="flex flex-col pt-8 gap-2 sm:justify-center items-center lg:flex lg:justify-start   lg:flex-row "> 
   <Button style={"primary"} image={"../public/Images/hand.png"}  buttonText={"Apply Credit Card"} />
-  <Button style={"secondary"} icone1={<i class="ri-arrow-right-line"></i>}  buttonText={"Learn More"} />
+  <Button  style={"secondary"} icone1={<i class="ri-arrow-right-line"></i>}  buttonText={"Learn More"} />
 </div>
 <div className="w-full h-fit justify-center items-center md:gap-0  md:justify-center md:items-start   md:pl-2 pt-0 lg:pt-4 flex flex-col lg:justify-start  md:flex-row gap-10">
   <div className="flex flex-row pr-20 md:pt-0 relative bg-amber-500">

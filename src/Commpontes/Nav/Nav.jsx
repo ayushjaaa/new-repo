@@ -2,6 +2,7 @@ import React, { useState } from 'react'; // ✅ useState import
 import { Menu, X } from "lucide-react";
 import Button from '../Button.jsx/Button';
 import { Link } from 'react-router-dom';
+import AnimatedButton from '../Button.jsx/Button';
 
 const Nav = () => {
   const [open, setOpen] = useState(false); // ✅ state for mobile menu
@@ -31,7 +32,7 @@ const Nav = () => {
             {el.label}
           </Link>
         ))}
-        <Button style={"primary"} buttonText={"Become Partner"} />
+    <Button variant="primary" buttonText="Become Partner" to="/BecomePartner" />
       </nav>
 
       {/* Mobile Menu Button */}
@@ -55,7 +56,12 @@ const Nav = () => {
               {el.label}
             </Link>
           ))}
-          <Button style={"primary"} buttonText={"Become Partner"} onClick={() => setOpen(false)} />
+    <button
+        variant="primary"
+        buttonText="Become Partner"
+    
+        to="/BecomePartner" // ✅ this triggers navigation
+      />
         </div>
       )}
     </header>

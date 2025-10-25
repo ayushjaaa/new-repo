@@ -128,7 +128,7 @@ const ContactUs = () => {
  }
 
   const respone = await axios.post("http://localhost:3000/api/user/userregister",data)
-  // console.log(respone)
+
    console.log(respone)
          setFormData({
       firstName: "",
